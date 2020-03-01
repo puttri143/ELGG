@@ -9,6 +9,32 @@ Elgg adalah software jejaring sosial open source yang menyediakan komponen yang 
 Elgg gratis di download dan digunakan. Elgg bisa digunakan pada platform LAMP (Linux, Apache, MySQL, dan PHP). 
 
 # Instalasi
+### Instalasi LAMP
+ikuti tahap yang dideskripsikan pada github.com/auriza
+
+##### Akses vm dari host
+`ssh student@localhost -p 2200`
+
+##### Set repo
+`sudo tee /etc/apt/sources.list << !` <br>
+`deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic          main restricted universe multiverse` <br>
+`deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse` <br>
+`deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse` <br>
+`!`
+
+##### Instal apache, mysql, php
+`sudo apt update` <br>
+`sudo apt install apache2 php mysql-server` <br>
+`sudo apt install php-mysql php-gd php-mbstring php-xml php-curl` <br>
+`sudo service apache2 restart`
+
+Setelah tahapan installing Apache2, command berikut dapat digunakan untuk menstop, menstart ataupun enable apache2 servicenya. 
+Apache2 selalu di start bersamaan dengan server boots.
+
+`sudo systemctl stop apache2.service` <br>
+`sudo systemctl start apache2.service` <br>
+`sudo systemctl enable apache2.service` <br>
+
 # Konfigurasi
 # Maintenance
 # Cara Pemakaian
