@@ -11,7 +11,6 @@ Elgg gratis di download dan digunakan. Elgg bisa digunakan pada platform LAMP (L
 # Instalasi
 # Konfigurasi
 # Maintenance
-# Otomatisasi
 # Cara Pemakaian
 # Pembahasan
 # Referensi
