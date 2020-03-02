@@ -37,7 +37,7 @@ Apache2 selalu di start bersamaan dengan server boots.
 
 Untuk mengetes Apache2 setup, buka bwowser dan kemudian buka server hostname.
 
-`http:\\localhost:8000 <br>
+`http:\\localhost:8000` <br>
  
  Untuk mengetes apakah instalasi mysql berhasil, gunakan command dibawah untuk login ke mysql server.
 `sudo mysql -u root` <br>
