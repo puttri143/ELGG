@@ -29,25 +29,23 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `sudo service apache2 restart`
 
 Setelah tahapan installing Apache2, command berikut dapat digunakan untuk menstop, menstart ataupun enable apache2 servicenya. 
-Apache2 selalu di start bersamaan dengan server boots.
-
+Apache2 selalu di start bersamaan dengan server boots. <br>
 `sudo systemctl stop apache2.service` <br>
 `sudo systemctl start apache2.service` <br>
 `sudo systemctl enable apache2.service` <br>
 
-Untuk mengetes Apache2 setup, buka bwowser dan kemudian buka server hostname.
-
+Untuk mengetes Apache2 setup, buka browser dan kemudian buka server hostname.<br>
 `http:\\localhost:8000` <br>
  
- Untuk mengetes apakah instalasi mysql berhasil, gunakan command dibawah untuk login ke mysql server.
+Untuk mengetes apakah instalasi mysql berhasil, gunakan command dibawah untuk login ke mysql server. <br>
 `sudo mysql -u root` <br>
 
 ### Install PHP 7.2 and Related Modules
-Run command dibawah ini untuk menambah repositori pihak ketiga untuk di upgrade ke PHP.
+Run command dibawah ini untuk menambah repositori pihak ketiga untuk di upgrade ke PHP. <br>
 `sudo apt-get install software-properties-common` <br>
 `sudo add-apt-repository ppa:ondrej/php` <br>
 
-Setelah itu, run command di bawah ini untuk menginstall PHPnya beserta modul-modul tekait.
+Setelah itu, run command di bawah ini untuk menginstall PHPnya beserta modul-modul tekait. <br>
 `sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-sqlite3 php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-mysql php7.2-gd php7.2-xml php7.2-cli php7.2-zip` <br>
 
 ![image](https://user-images.githubusercontent.com/47512858/75656088-cdbfc100-5c95-11ea-8575-d7f45d52a7b6.png)
