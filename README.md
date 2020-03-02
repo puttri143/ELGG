@@ -121,16 +121,16 @@ Kemudian copy dan paste konten dibawah ini kedalam file tersebut kemudian simpan
      `DocumentRoot /var/www/html/elgg`<br>
      `ServerName localhost:8000`<br>
 <br>
-     `<Directory /var/www/html/elgg/>`<br>
+>     `<Directory /var/www/html/elgg/>`<br>
           `Options FollowSymlinks`<br>
           `AllowOverride All`<br>
           `Require all granted`<br>
      `</Directory>`<br>
 <br>
-     `ErrorLog ${APACHE_LOG_DIR}/error.log`<br>
+>     `ErrorLog ${APACHE_LOG_DIR}/error.log`<br>
      `CustomLog ${APACHE_LOG_DIR}/access.log combined`<br>
 <br>
-`</VirtualHost>`<br>
+> `</VirtualHost>`<br>
 
 Simpan file kemudian keluar.<br>
 
@@ -161,6 +161,8 @@ Setelah semua step selesai, buat admin account maka proses pembuatan akun pada e
 ![image](https://user-images.githubusercontent.com/47512858/75656533-bfbe7000-5c96-11ea-8ac4-5eb85f3923b7.png)
 ![image](https://user-images.githubusercontent.com/47512858/75656582-d664c700-5c96-11ea-9b56-f42735ea1a43.png)<br><br>
 
+
+# Konfigurasi
 Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian. <br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75656637-f300ff00-5c96-11ea-8cab-098ec3558c65.png)
 ![image](https://user-images.githubusercontent.com/47512858/75656669-03b17500-5c97-11ea-898c-b0be10dafae5.png)
@@ -179,6 +181,8 @@ Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian
 
 ![image](https://user-images.githubusercontent.com/47512858/75657253-550e3400-5c98-11ea-83a1-d0528824d48b.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)<br><br>
+
+# Maintenance
 Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657330-8be44a00-5c98-11ea-9c93-ad003ea0bce4.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657366-9d2d5680-5c98-11ea-9a23-6e67f9218c98.png)
@@ -188,10 +192,6 @@ Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657491-ee3d4a80-5c98-11ea-94ff-342435e7979b.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657519-fdbc9380-5c98-11ea-9b93-cb9e3105415d.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657570-13ca5400-5c99-11ea-8ac7-0041a9c17711.png)
-
-
-# Konfigurasi
-# Maintenance
 # Cara Pemakaian
 # Pembahasan
 # Referensi
