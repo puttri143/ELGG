@@ -197,6 +197,20 @@ Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657570-13ca5400-5c99-11ea-8ac7-0041a9c17711.png)
 
 # Pembahasan
+Elgg adalah salah atau varian jenis CMS yang content nya di khususkan untuk situs jejaring sosial yang menawarkan blogging, jaringan, komunitas, mengumpulkan berita. Elgg digunakan didalam jaringan internal/local dengan bantuan web server tentunya bisa berbasis linux server maupun windows. Tanpa harus bisa memahami bahasa pemrograman apapun, elgg dapat membantu kita dalam membuat sebuah jejaring sosial dengan mudah. Selain itu Elgg ini tergolong freeware dan untuk lisensinya sendiri termasuk open source dan kita bebas untuk mengembangkannya.
+Elgg merupakan sebuah social networking framework yang memungkinkan penggunanya untuk menjalankan jaringan internal atau lokal dengan bantuan web server. Elgg bisa dijalankan di server linux maupun windows. Selain itu, Elgg juga bisa digunakan di shared hosting maupun vps. 
+
+# Kelebihan 
+1. Terdapat beberapa fitur gratis yang bisa digunakan
+2. Membuat blog, Membuat web page, Membuat grup, Upload file ataupun foto.
+3. Mudah digunakan dan dipahami
+4. Instalasi mudah dan cepat
+
+# Kekurangan
+1. Perlu hosting untuk bisa diakses banyak orang
+2. Tampilan kurang menarik dan bervariasi
+3. Fitur-fitur kurang banyak
+
 # Referensi
 1. https://gegeriyadi.com/sistem-manajemen-konten/
 2. https://en.wikipedia.org/wiki/Elgg_(software)
