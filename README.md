@@ -22,8 +22,6 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse` <br>
 `!`
 
-![image](https://drive.google.com/drive/u/0/folders/1n-UAXXXKJepWAvVqO9RGRkHnyOz2Vmd7)
-
 ##### Instal apache, mysql, php
 `sudo apt update` <br>
 `sudo apt install apache2 php mysql-server` <br>
@@ -52,6 +50,39 @@ Run command dibawah ini untuk menambah repositori pihak ketiga untuk di upgrade 
 Setelah itu, run command di bawah ini untuk menginstall PHPnya beserta modul-modul tekait.
 `sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-sqlite3 php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-mysql php7.2-gd php7.2-xml php7.2-cli php7.2-zip` <br>
 
+![image](https://user-images.githubusercontent.com/47512858/75656088-cdbfc100-5c95-11ea-8575-d7f45d52a7b6.png)
+![image](https://user-images.githubusercontent.com/47512858/75656199-0495d700-5c96-11ea-9345-36cb5dd1cdcf.png)
+![image](https://user-images.githubusercontent.com/47512858/75656304-4292fb00-5c96-11ea-9392-08b42d5e98ae.png)
+![image](https://user-images.githubusercontent.com/47512858/75656374-5dfe0600-5c96-11ea-966d-2a69cc25cce2.png)
+![image](https://user-images.githubusercontent.com/47512858/75656425-78d07a80-5c96-11ea-817a-025a33bc72be.png)
+![image](https://user-images.githubusercontent.com/47512858/75656449-8c7be100-5c96-11ea-8c65-1e396350d482.png)
+![image](https://user-images.githubusercontent.com/47512858/75656497-a7e6ec00-5c96-11ea-8cdd-77a081c612b1.png)
+![image](https://user-images.githubusercontent.com/47512858/75656533-bfbe7000-5c96-11ea-8ac4-5eb85f3923b7.png)
+![image](https://user-images.githubusercontent.com/47512858/75656582-d664c700-5c96-11ea-9b56-f42735ea1a43.png)
+![image](https://user-images.githubusercontent.com/47512858/75656637-f300ff00-5c96-11ea-8cab-098ec3558c65.png)
+![image](https://user-images.githubusercontent.com/47512858/75656669-03b17500-5c97-11ea-898c-b0be10dafae5.png)
+![image](https://user-images.githubusercontent.com/47512858/75656714-1b88f900-5c97-11ea-9319-1f104f4fd654.png)
+![image](https://user-images.githubusercontent.com/47512858/75656745-30658c80-5c97-11ea-82b4-17c51aa65c78.png)
+![image](https://user-images.githubusercontent.com/47512858/75656775-44a98980-5c97-11ea-83ce-b7ca050e8222.png)
+![image](https://user-images.githubusercontent.com/47512858/75656821-660a7580-5c97-11ea-94a7-e06c4befb859.png)
+![image](https://user-images.githubusercontent.com/47512858/75656924-acf86b00-5c97-11ea-98dc-da4b592bfd78.png)
+![image](https://user-images.githubusercontent.com/47512858/75656969-c39ec200-5c97-11ea-8386-be4eec06678c.png)
+![image](https://user-images.githubusercontent.com/47512858/75657007-d5806500-5c97-11ea-9620-bd6bb132eaae.png)
+![image](https://user-images.githubusercontent.com/47512858/75657041-eaf58f00-5c97-11ea-9fbd-907045c0cc44.png)
+![image](https://user-images.githubusercontent.com/47512858/75657071-f9dc4180-5c97-11ea-9520-3982fcfb640f.png)
+![image](https://user-images.githubusercontent.com/47512858/75657103-111b2f00-5c98-11ea-8937-c67878347e44.png)
+![image](https://user-images.githubusercontent.com/47512858/75657153-298b4980-5c98-11ea-9306-66371ac6bcc7.png)
+![image](https://user-images.githubusercontent.com/47512858/75657210-4162cd80-5c98-11ea-9804-09bef8eaf9db.png)
+![image](https://user-images.githubusercontent.com/47512858/75657253-550e3400-5c98-11ea-83a1-d0528824d48b.png)
+![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)
+![image](https://user-images.githubusercontent.com/47512858/75657330-8be44a00-5c98-11ea-9c93-ad003ea0bce4.png)
+![image](https://user-images.githubusercontent.com/47512858/75657366-9d2d5680-5c98-11ea-9a23-6e67f9218c98.png)
+![image](https://user-images.githubusercontent.com/47512858/75657385-aa4a4580-5c98-11ea-84fe-5289ae1339aa.png)
+![image](https://user-images.githubusercontent.com/47512858/75657415-bd5d1580-5c98-11ea-974e-8c8159fe6f2c.png)
+![image](https://user-images.githubusercontent.com/47512858/75657460-d960b700-5c98-11ea-97da-faaf99a672ff.png)
+![image](https://user-images.githubusercontent.com/47512858/75657491-ee3d4a80-5c98-11ea-94ff-342435e7979b.png)
+![image](https://user-images.githubusercontent.com/47512858/75657519-fdbc9380-5c98-11ea-9b93-cb9e3105415d.png)
+![image](https://user-images.githubusercontent.com/47512858/75657570-13ca5400-5c99-11ea-8ac7-0041a9c17711.png)
 
 
 # Konfigurasi
