@@ -21,7 +21,7 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse` <br>
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse` <br>
 `!`
-
+![image](https://drive.google.com/drive/u/0/folders/1n-UAXXXKJepWAvVqO9RGRkHnyOz2Vmd7)
 ##### Instal apache, mysql, php
 `sudo apt update` <br>
 `sudo apt install apache2 php mysql-server` <br>
@@ -49,6 +49,8 @@ Run command dibawah ini untuk menambah repositori pihak ketiga untuk di upgrade 
 
 Setelah itu, run command di bawah ini untuk menginstall PHPnya beserta modul-modul tekait.
 `sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-sqlite3 php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-mysql php7.2-gd php7.2-xml php7.2-cli php7.2-zip` <br>
+
+
 
 # Konfigurasi
 # Maintenance
