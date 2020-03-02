@@ -42,7 +42,7 @@ Untuk mengetes Apache2 setup, buka bwowser dan kemudian buka server hostname.
  Untuk mengetes apakah instalasi mysql berhasil, gunakan command dibawah untuk login ke mysql server.
 `sudo mysql -u root <br>
 
-##### Install PHP 7.2 and Related Modules
+### Install PHP 7.2 and Related Modules
 Run command dibawah ini untuk menambah repositori pihak ketiga untuk di upgrade ke PHP.
 `sudo apt-get install software-properties-common <br>
 `sudo add-apt-repository ppa:ondrej/php <br>
