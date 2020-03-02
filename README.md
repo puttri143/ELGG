@@ -10,7 +10,7 @@ Elgg gratis di download dan digunakan. Elgg bisa digunakan pada platform LAMP (L
 
 # Instalasi
 ### Instalasi LAMP
-ikuti tahap yang dideskripsikan pada github.com/auriza
+ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/master/p01.md
 
 ##### Akses vm dari host
 `ssh student@localhost -p 2200`
