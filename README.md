@@ -21,7 +21,9 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse` <br>
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse` <br>
 `!`
+
 ![image](https://drive.google.com/drive/u/0/folders/1n-UAXXXKJepWAvVqO9RGRkHnyOz2Vmd7)
+
 ##### Instal apache, mysql, php
 `sudo apt update` <br>
 `sudo apt install apache2 php mysql-server` <br>
