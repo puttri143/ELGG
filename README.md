@@ -28,15 +28,17 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `sudo apt install php-mysql php-gd php-mbstring php-xml php-curl` <br>
 `sudo service apache2 restart`
 
-Setelah tahapan installing Apache2, command berikut dapat digunakan untuk menstop, menstart ataupun enable apache2 servicenya. 
+Setelah tahapan installing Apache2, command berikut dapat digunakan untuk menstop, menstart ataupun enable apache2 servicenya. <br><br>
 Apache2 selalu di start bersamaan dengan server boots. <br>
 `sudo systemctl stop apache2.service` <br>
 `sudo systemctl start apache2.service` <br>
 `sudo systemctl enable apache2.service` <br>
+<br>
+Open localhost:8000 <br>
+<br>
 
-Untuk mengetes Apache2 setup, buka browser dan kemudian buka server hostname.<br>
-`http:\\localhost:8000` <br>
- 
+![image](https://user-images.githubusercontent.com/47512858/75656088-cdbfc100-5c95-11ea-8575-d7f45d52a7b6.png)
+
 Untuk mengetes apakah instalasi mysql berhasil, gunakan command dibawah untuk login ke mysql server. <br>
 `sudo mysql -u root` <br>
 
@@ -62,7 +64,7 @@ Lalu ubah beberapa line di bawah ini dalam file tersebut kemudian simpan. Nilai-
 
 Setelah melakukan semua tahapan diatas, save file dan keluar.
 
-###Restart Apache2
+### Restart Apache2
 Untuk restart Apache2, run command dibawah ini.<br>
 `sudo systemctl restart apache2.service`
 
@@ -73,7 +75,9 @@ Kemudian ketikkan content di bawah dalam file tersebut kemudian simpan.<br>
 `<?php phpinfo( ); ?>`
 
 lalu telusuri di hostname server /**phpinfo.php**<br>
-**localhost:8000/phpinfo.php**
+**localhost:8000/phpinfo.php**<br>
+
+![image](https://user-images.githubusercontent.com/47512858/75656199-0495d700-5c96-11ea-9345-36cb5dd1cdcf.png)
 
 ### Create Magento Database
 Untuk login ke database server mysql jalankan command dibawah ini.<br>
@@ -142,10 +146,6 @@ Setelah mengkonfigurasi VirtualHost diatas, cara mengaktifkannya dengan cara men
 kemudian, open browser dan pergi ke url [http://localhost:8000/elgg](http://localhost:8000/elgg) dan lanjutkan instalasinya lalu kalian akan melihat laman instalasi elgg kemudian tekan next untuk melanjutkan.
 
 **http://localhost:8000/elgg**
-
-![image](https://user-images.githubusercontent.com/47512858/75656088-cdbfc100-5c95-11ea-8575-d7f45d52a7b6.png)
-
-![image](https://user-images.githubusercontent.com/47512858/75656199-0495d700-5c96-11ea-9345-36cb5dd1cdcf.png)
 
 ![image](https://user-images.githubusercontent.com/47512858/75656304-4292fb00-5c96-11ea-9392-08b42d5e98ae.png)<br><br>
 
