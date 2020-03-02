@@ -35,6 +35,10 @@ Apache2 selalu di start bersamaan dengan server boots.
 `sudo systemctl start apache2.service` <br>
 `sudo systemctl enable apache2.service` <br>
 
+Untuk mengeuji pengaturan Apache2, buka browser dan buka hostname server. Jika berfungsi dengan baik maka akan muncul laman seperti dibawah ini.
+`http:\\localhost:8000
+![image](
+
 # Konfigurasi
 # Maintenance
 # Cara Pemakaian
@@ -42,3 +46,4 @@ Apache2 selalu di start bersamaan dengan server boots.
 # Referensi
 1. https://gegeriyadi.com/sistem-manajemen-konten/
 2. https://en.wikipedia.org/wiki/Elgg_(software)
+3. https://websiteforstudents.com/install-elgg-social-networking-engine-on-ubuntu-16-04-17-10-18-04-with-apache2-mariadb-and-php-7-2-support/
