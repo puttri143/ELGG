@@ -13,7 +13,7 @@ Elgg gratis di download dan digunakan. Elgg bisa digunakan pada platform LAMP (L
 ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/master/p01.md
 
 ##### Akses vm dari host
-`ssh student@localhost -p 2200`
+> `ssh student@localhost -p 2200`
 
 ##### Set repo
 > `sudo tee /etc/apt/sources.list << !` <br>
@@ -23,14 +23,14 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `!`
 
 ##### Instal apache, mysql, php
-`sudo apt update` <br>
+> `sudo apt update` <br>
 `sudo apt install apache2 php mysql-server` <br>
 `sudo apt install php-mysql php-gd php-mbstring php-xml php-curl` <br>
 `sudo service apache2 restart`
 
 Setelah tahapan installing Apache2, command berikut dapat digunakan untuk menstop, menstart ataupun enable apache2 servicenya. <br><br>
 Apache2 selalu di start bersamaan dengan server boots. <br>
-`sudo systemctl stop apache2.service` <br>
+> `sudo systemctl stop apache2.service` <br>
 `sudo systemctl start apache2.service` <br>
 `sudo systemctl enable apache2.service` <br>
 <br>
@@ -40,21 +40,21 @@ Open localhost:8000 <br>
 ![image](https://user-images.githubusercontent.com/47512858/75656088-cdbfc100-5c95-11ea-8575-d7f45d52a7b6.png)
 
 Untuk mengetes apakah instalasi mysql berhasil, gunakan command dibawah untuk login ke mysql server. <br>
-`sudo mysql -u root` <br>
+> `sudo mysql -u root` <br>
 
 ### Install PHP 7.2 and Related Modules
 Run command dibawah ini untuk menambah repositori pihak ketiga untuk di upgrade ke PHP. <br>
-`sudo apt-get install software-properties-common` <br>
+> `sudo apt-get install software-properties-common` <br>
 `sudo add-apt-repository ppa:ondrej/php` <br>
 
 Setelah itu, run command di bawah ini untuk menginstall PHPnya beserta modul-modul terkait. <br>
-`sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-sqlite3 php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-mysql php7.2-gd php7.2-xml php7.2-cli php7.2-zip` <br>
+> `sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-sqlite3 php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-mysql php7.2-gd php7.2-xml php7.2-cli php7.2-zip` <br>
 
 Setelah menginstall PHP, run command di bawah ini untuk membuka default config PHP file untuk Apache2. <br>
-`sudo nano /etc/php/7.2/apache2/php.ini`<br>
+> `sudo nano /etc/php/7.2/apache2/php.ini`<br>
 
 Lalu ubah beberapa line di bawah ini dalam file tersebut kemudian simpan. Nilai-nilai didalam command dibawah adalah nilai yang tepat untuk digunakan dalam setting environment kita.<br>
-`file_uploads = On`<br>
+> `file_uploads = On`<br>
 `allow_url_fopen = On`<br>
 `short_open_tag = On`<br>
 `memory_limit = 256M`<br>
@@ -66,13 +66,13 @@ Setelah melakukan semua tahapan diatas, save file dan keluar.
 
 ### Restart Apache2
 Untuk restart Apache2, run command dibawah ini.<br>
-`sudo systemctl restart apache2.service`
+> `sudo systemctl restart apache2.service`
 
 Untuk mencoba PHP setting dengan apache2, buat file **phpinfo.php** dalam direktori root apache2 dengan menjalankan command dibawah ini<br>
-`sudo nano /var/www/html/phpinfo.php`
+> `sudo nano /var/www/html/phpinfo.php`
 
 Kemudian ketikkan content di bawah dalam file tersebut kemudian simpan.<br>
-`<?php phpinfo( ); ?>`
+> `<?php phpinfo( ); ?>`
 
 lalu telusuri di hostname server /**phpinfo.php**<br>
 **localhost:8000/phpinfo.php**<br>
@@ -81,42 +81,42 @@ lalu telusuri di hostname server /**phpinfo.php**<br>
 
 ### Create Magento Database
 Untuk login ke database server mysql jalankan command dibawah ini.<br>
-`sudo mysql -u root -p`
+> `sudo mysql -u root -p`
 
 Kemudian buat database bernama elgg.<br>
-`CREATE DATABASE elgg;`
+> `CREATE DATABASE elgg;`
 
 Setelah itu buat nama database user sebagai elgguser dengan password yang baru.<br>
-`CREATE USER 'elgguser'@'localhost' IDENTIFIED BY 'student';`
+> `CREATE USER 'elgguser'@'localhost' IDENTIFIED BY 'student';`
 
 Kemudian beri akses penuh untuk penggunanya ke database ini.<br>
-`GRANT ALL PRIVILEGES ON elgg.* TO 'elgguser'@'localhost'`<br>
+> `GRANT ALL PRIVILEGES ON elgg.* TO 'elgguser'@'localhost'`<br>
 `IDENTIFIED BY 'user_password_here' WITH GRANT OPTION;`
 
 Setelah itu simpan perubahan dan keluar.<br>
-`FLUSH PRIVILEGES;`<br>
+> `FLUSH PRIVILEGES;`<br>
 `EXIT;`
 
 ### Download and Install Elgg CMS
 
 Jalankan command dibawah ini untuk mendownload content terbaru dari  ELGG CMS , kemudian unzip file hasil download tersebut kemudian pindahkan konten ke *default* direktori root Apache2. <br>
-`cd /tmp && wget https://elgg.org/download/elgg-2.3.7.zip
+> `cd /tmp && wget https://elgg.org/download/elgg-2.3.7.zip
 unzip elgg-2.3.7.zip` <br>
 `sudo mv elgg-2.3.7 /var/www/html/elgg` <br>
 
 Buat direktori data elgg untuk menyimpan konten data. <br>
-`sudo mkdir -p /var/www/html/elgg/data`
+> `sudo mkdir -p /var/www/html/elgg/data`
 
 Kemudian jalankan command di bawah untuk mengubah izin folder root.<br>
-`sudo chown -R www-data:www-data /var/www/html/elgg/`<br>
+> `sudo chown -R www-data:www-data /var/www/html/elgg/`<br>
 `sudo chmod -R 755 /var/www/html/elgg/`
 
 ### Configure Apache2 Elgg CMS Site
 Setelah itu, konfigurasikan file konfigurasi Apache2 untuk Elgg CMS. File ini akan mengontrol bagaimana pengguna mengakses konten Elgg CMS. Jalankan perintah di bawah ini untuk membuat file konfigurasi baru bernama **elgg.conf**.<br>
-`sudo nano /etc/apache2/sites-available/elgg.conf`
+> `sudo nano /etc/apache2/sites-available/elgg.conf`
 
 Kemudian copy dan paste konten dibawah ini kedalam file tersebut kemudian simpan. Kemudian ganti line yang di highlight dengan domain name milik kamu sendiri dan lokasi direktori rootnya.<br>
-`<VirtualHost *:80>`<br>
+> `<VirtualHost *:80>`<br>
      `ServerAdmin admin@example.com`<br>
      `DocumentRoot /var/www/html/elgg`<br>
      `ServerName localhost:8000`<br>
@@ -139,7 +139,7 @@ Setelah mengkonfigurasi VirtualHost diatas, mengaktifkannya dengan cara menjalan
 ### Enable the Elgg CMS Site and Rewrite Module
 
 Setelah mengkonfigurasi VirtualHost diatas, cara mengaktifkannya dengan cara menjalankan command dibawah, lalu restart Apache2 sever.<br>
-`sudo a2ensite elgg.conf`<br>
+> `sudo a2ensite elgg.conf`<br>
 `sudo a2enmod rewrite`<br>
 `sudo systemctl restart apache2.service`<br>
 
