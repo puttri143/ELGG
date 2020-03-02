@@ -179,7 +179,7 @@ Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian
 ![image](https://user-images.githubusercontent.com/47512858/75657153-298b4980-5c98-11ea-9306-66371ac6bcc7.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657210-4162cd80-5c98-11ea-9804-09bef8eaf9db.png)
 
-![image](https://user-images.githubusercontent.com/47512858/75657253-550e3400-5c98-11ea-83a1-d0528824d48b.png)
+![image](https://user-images.githubusercontent.com/47512858/75657253-550e3400-5c98-11ea-83a1-d0528824d48b.png)<br><br>
 
 
 # Maintenance
