@@ -117,18 +117,18 @@ Setelah itu, konfigurasikan file konfigurasi Apache2 untuk Elgg CMS. File ini ak
 
 Kemudian copy dan paste konten dibawah ini kedalam file tersebut kemudian simpan. Kemudian ganti line yang di highlight dengan domain name milik kamu sendiri dan lokasi direktori rootnya.<br>
 > `<VirtualHost *:80>`<br>
-     `ServerAdmin admin@example.com`<br>
-     `DocumentRoot /var/www/html/elgg`<br>
-     `ServerName localhost:8000`<br>
+`ServerAdmin admin@example.com`<br>
+`DocumentRoot /var/www/html/elgg`<br>
+`ServerName localhost:8000`<br>
 <br>
->     `<Directory /var/www/html/elgg/>`<br>
-          `Options FollowSymlinks`<br>
-          `AllowOverride All`<br>
-          `Require all granted`<br>
-     `</Directory>`<br>
+> `<Directory /var/www/html/elgg/>`<br>
+`Options FollowSymlinks`<br>
+`AllowOverride All`<br>
+`Require all granted`<br>
+`</Directory>`<br>
 <br>
->     `ErrorLog ${APACHE_LOG_DIR}/error.log`<br>
-     `CustomLog ${APACHE_LOG_DIR}/access.log combined`<br>
+> `ErrorLog ${APACHE_LOG_DIR}/error.log`<br>
+`CustomLog ${APACHE_LOG_DIR}/access.log combined`<br>
 <br>
 > `</VirtualHost>`<br>
 
