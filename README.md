@@ -66,30 +66,31 @@ Setelah melakukan semua tahapan diatas, save file dan keluar.
 Untuk restart Apache2, run command dibawah ini.<br>
 `sudo systemctl restart apache2.service`
 
-Untuk mencoba PHP setting dengan apache2, buat file **phpinfo.php** dalam direktori root apache2 dengan menjalankan command dibawah ini
+Untuk mencoba PHP setting dengan apache2, buat file **phpinfo.php** dalam direktori root apache2 dengan menjalankan command dibawah ini<br>
 `sudo nano /var/www/html/phpinfo.php`
 
-Kemudian ketikkan content di bawah dalam file tersebut kemudian simpan.
+Kemudian ketikkan content di bawah dalam file tersebut kemudian simpan.<br>
 `<?php phpinfo( ); ?>`
 
-lalu telusuri di hostname server /**phpinfo.php**
+lalu telusuri di hostname server /**phpinfo.php**<br>
 **localhost:8000/phpinfo.php**
 
-###Create Magento Database
-Untuk login ke database server mysql jalankan command dibawah ini.
+### Create Magento Database
+Untuk login ke database server mysql jalankan command dibawah ini.<br>
 `sudo mysql -u root -p`
 
-Kemudian buat database bernama elgg.
+Kemudian buat database bernama elgg.<br>
 `CREATE DATABASE elgg;`
 
-Setelah itu buat nama database user sebagai elgguser dengan password yang baru.
+Setelah itu buat nama database user sebagai elgguser dengan password yang baru.<br>
 `CREATE USER 'elgguser'@'localhost' IDENTIFIED BY 'student';`
 
-Kemudian beri akses penuh untuk penggunanya ke database ini.
-`GRANT ALL PRIVILEGES ON elgg.* TO 'elgguser'@'localhost' IDENTIFIED BY 'user_password_here' WITH GRANT OPTION;`
+Kemudian beri akses penuh untuk penggunanya ke database ini.<br>
+`GRANT ALL PRIVILEGES ON elgg.* TO 'elgguser'@'localhost'`<br>
+`IDENTIFIED BY 'user_password_here' WITH GRANT OPTION;`
 
-Setelah itu simpan perubahan dan keluar.
-`FLUSH PRIVILEGES;`
+Setelah itu simpan perubahan dan keluar.<br>
+`FLUSH PRIVILEGES;`<br>
 `EXIT;`
 
 ### Download and Install Elgg CMS
@@ -102,15 +103,65 @@ unzip elgg-2.3.7.zip` <br>
 Buat direktori data elgg untuk menyimpan konten data. <br>
 `sudo mkdir -p /var/www/html/elgg/data`
 
+Kemudian jalankan command di bawah untuk mengubah izin folder root.<br>
+`sudo chown -R www-data:www-data /var/www/html/elgg/`<br>
+`sudo chmod -R 755 /var/www/html/elgg/`
+
+### Configure Apache2 Elgg CMS Site
+Setelah itu, konfigurasikan file konfigurasi Apache2 untuk Elgg CMS. File ini akan mengontrol bagaimana pengguna mengakses konten Elgg CMS. Jalankan perintah di bawah ini untuk membuat file konfigurasi baru bernama **elgg.conf**.<br>
+`sudo nano /etc/apache2/sites-available/elgg.conf`
+
+Kemudian copy dan paste konten dibawah ini kedalam file tersebut kemudian simpan. Kemudian ganti line yang di highlight dengan domain name milik kamu sendiri dan lokasi direktori rootnya.<br>
+`<VirtualHost *:80>`<br>
+     `ServerAdmin admin@example.com`<br>
+     `DocumentRoot /var/www/html/elgg`<br>
+     `ServerName localhost:8000`<br>
+<br>
+     `<Directory /var/www/html/elgg/>`<br>
+          `Options FollowSymlinks`<br>
+          `AllowOverride All`<br>
+          `Require all granted`<br>
+     `</Directory>`<br>
+<br>
+     `ErrorLog ${APACHE_LOG_DIR}/error.log`<br>
+     `CustomLog ${APACHE_LOG_DIR}/access.log combined`<br>
+<br>
+`</VirtualHost>`<br>
+
+Simpan file kemudian keluar.<br>
+
+Setelah mengkonfigurasi VirtualHost diatas, mengaktifkannya dengan cara menjalankan command setelah ini.<br>
+
+### Enable the Elgg CMS Site and Rewrite Module
+
+Setelah mengkonfigurasi VirtualHost diatas, cara mengaktifkannya dengan cara menjalankan command dibawah, lalu restart Apache2 sever.<br>
+`sudo a2ensite elgg.conf`<br>
+`sudo a2enmod rewrite`<br>
+`sudo systemctl restart apache2.service`<br>
+
+kemudian, open browser dan pergi ke url [http://localhost:8000/elgg](http://localhost:8000/elgg) dan lanjutkan instalasinya lalu kalian akan melihat laman instalasi elgg kemudian tekan next untuk melanjutkan.
+
+**http://localhost:8000/elgg**
+
 ![image](https://user-images.githubusercontent.com/47512858/75656088-cdbfc100-5c95-11ea-8575-d7f45d52a7b6.png)
+
 ![image](https://user-images.githubusercontent.com/47512858/75656199-0495d700-5c96-11ea-9345-36cb5dd1cdcf.png)
-![image](https://user-images.githubusercontent.com/47512858/75656304-4292fb00-5c96-11ea-9392-08b42d5e98ae.png)
-![image](https://user-images.githubusercontent.com/47512858/75656374-5dfe0600-5c96-11ea-966d-2a69cc25cce2.png)
+
+![image](https://user-images.githubusercontent.com/47512858/75656304-4292fb00-5c96-11ea-9392-08b42d5e98ae.png)<br><br>
+
+Jika semua elemen dalam requirement check sudah benar maka dia akan berwarna hijau dan tekan next.<br><br>
+![image](https://user-images.githubusercontent.com/47512858/75656374-5dfe0600-5c96-11ea-966d-2a69cc25cce2.png)<br><br>
+
+Lalu pada tahap instalasi database silahkan isi requirement yang ada sesuai dengan apa yang kalian buat sebelumnya. Kemudian tekan next.<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75656425-78d07a80-5c96-11ea-817a-025a33bc72be.png)
 ![image](https://user-images.githubusercontent.com/47512858/75656449-8c7be100-5c96-11ea-8c65-1e396350d482.png)
-![image](https://user-images.githubusercontent.com/47512858/75656497-a7e6ec00-5c96-11ea-8cdd-77a081c612b1.png)
+![image](https://user-images.githubusercontent.com/47512858/75656497-a7e6ec00-5c96-11ea-8cdd-77a081c612b1.png)<br><br>
+
+Setelah semua step selesai, buat admin account maka proses pembuatan akun pada elgg selesai.<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75656533-bfbe7000-5c96-11ea-8ac4-5eb85f3923b7.png)
-![image](https://user-images.githubusercontent.com/47512858/75656582-d664c700-5c96-11ea-9b56-f42735ea1a43.png)
+![image](https://user-images.githubusercontent.com/47512858/75656582-d664c700-5c96-11ea-9b56-f42735ea1a43.png)<br><br>
+
+Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian. <br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75656637-f300ff00-5c96-11ea-8cab-098ec3558c65.png)
 ![image](https://user-images.githubusercontent.com/47512858/75656669-03b17500-5c97-11ea-898c-b0be10dafae5.png)
 ![image](https://user-images.githubusercontent.com/47512858/75656714-1b88f900-5c97-11ea-9319-1f104f4fd654.png)
@@ -125,8 +176,10 @@ Buat direktori data elgg untuk menyimpan konten data. <br>
 ![image](https://user-images.githubusercontent.com/47512858/75657103-111b2f00-5c98-11ea-8937-c67878347e44.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657153-298b4980-5c98-11ea-9306-66371ac6bcc7.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657210-4162cd80-5c98-11ea-9804-09bef8eaf9db.png)
+
 ![image](https://user-images.githubusercontent.com/47512858/75657253-550e3400-5c98-11ea-83a1-d0528824d48b.png)
-![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)
+![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)<br><br>
+Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657330-8be44a00-5c98-11ea-9c93-ad003ea0bce4.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657366-9d2d5680-5c98-11ea-9a23-6e67f9218c98.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657385-aa4a4580-5c98-11ea-84fe-5289ae1339aa.png)
