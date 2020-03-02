@@ -180,9 +180,12 @@ Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian
 ![image](https://user-images.githubusercontent.com/47512858/75657210-4162cd80-5c98-11ea-9804-09bef8eaf9db.png)
 
 ![image](https://user-images.githubusercontent.com/47512858/75657253-550e3400-5c98-11ea-83a1-d0528824d48b.png)
-![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)<br><br>
+
 
 # Maintenance
+![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)<br><br>
+
+# Cara Pemakaian
 Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657330-8be44a00-5c98-11ea-9c93-ad003ea0bce4.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657366-9d2d5680-5c98-11ea-9a23-6e67f9218c98.png)
@@ -192,7 +195,7 @@ Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657491-ee3d4a80-5c98-11ea-94ff-342435e7979b.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657519-fdbc9380-5c98-11ea-9b93-cb9e3105415d.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657570-13ca5400-5c99-11ea-8ac7-0041a9c17711.png)
-# Cara Pemakaian
+
 # Pembahasan
 # Referensi
 1. https://gegeriyadi.com/sistem-manajemen-konten/
