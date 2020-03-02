@@ -60,3 +60,4 @@ Setelah itu, run command di bawah ini untuk menginstall PHPnya beserta modul-mod
 1. https://gegeriyadi.com/sistem-manajemen-konten/
 2. https://en.wikipedia.org/wiki/Elgg_(software)
 3. https://websiteforstudents.com/install-elgg-social-networking-engine-on-ubuntu-16-04-17-10-18-04-with-apache2-mariadb-and-php-7-2-support/
+4. https://elgg.org/
