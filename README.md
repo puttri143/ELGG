@@ -16,7 +16,7 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `ssh student@localhost -p 2200`
 
 ##### Set repo
-`sudo tee /etc/apt/sources.list << !` <br>
+> `sudo tee /etc/apt/sources.list << !` <br>
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic          main restricted universe multiverse` <br>
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse` <br>
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse` <br>
