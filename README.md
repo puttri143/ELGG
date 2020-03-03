@@ -2,7 +2,7 @@
 
 # Sekilas Tentang
 
-Dalam wikipedia dijelaskan CMS adalah singkatan dari Content Management System atau dalam Bahasa Indonesianya Sistem Manajemen Konten merupakan perangkat lunak yang memungkinkan seseorang untuk menambahkan dan/atau memanipulasi (mengubah) isi dari suatu situs web. Salah satu contoh CMS adalah ELGG.
+CMS adalah singkatan dari Content Management System atau dalam Bahasa Indonesianya Sistem Manajemen Konten merupakan perangkat lunak yang memungkinkan seseorang untuk menambahkan dan/atau memanipulasi (mengubah) isi dari suatu situs web. Salah satu contoh CMS adalah ELGG.
 
 Elgg adalah software jejaring sosial open source yang menyediakan komponen yang diperlukan untuk menciptakan lingkungan sosial online. ELGG menyediakan fitur blogging, microblogging, file sharing, networking, grup, dan fitur lainnya.
 
@@ -197,19 +197,26 @@ Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657570-13ca5400-5c99-11ea-8ac7-0041a9c17711.png)
 
 # Pembahasan
-Elgg adalah salah atau varian jenis CMS yang content nya di khususkan untuk situs jejaring sosial yang menawarkan blogging, jaringan, komunitas, mengumpulkan berita. Elgg digunakan didalam jaringan internal/local dengan bantuan web server tentunya bisa berbasis linux server maupun windows. Tanpa harus bisa memahami bahasa pemrograman apapun, elgg dapat membantu kita dalam membuat sebuah jejaring sosial dengan mudah. Selain itu Elgg ini tergolong freeware dan untuk lisensinya sendiri termasuk open source dan kita bebas untuk mengembangkannya.
-Elgg merupakan sebuah social networking framework yang memungkinkan penggunanya untuk menjalankan jaringan internal atau lokal dengan bantuan web server. Elgg bisa dijalankan di server linux maupun windows. Selain itu, Elgg juga bisa digunakan di shared hosting maupun vps. 
+Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk situs jejaring sosial yang menawarkan blogging, jaringan, komunitas, mengumpulkan berita. Elgg digunakan didalam jaringan internal/local dengan bantuan web server tentunya bisa berbasis linux maupun windows. Tanpa harus bisa memahami bahasa pemrograman apapun, elgg dapat membantu kita dalam membuat sebuah jejaring sosial dengan mudah. Elgg ini tergolong freeware dan untuk lisensinya sendiri termasuk open source dan kita bebas untuk mengembangkannya dan juga bisa digunakan di shared hosting maupun vps. 
 
 # Kelebihan 
-1. Terdapat beberapa fitur gratis yang bisa digunakan
-2. Membuat blog, Membuat web page, Membuat grup, Upload file ataupun foto.
-3. Mudah digunakan dan dipahami
-4. Instalasi mudah dan cepat
+1. Terdapat fitur-fitur gratis yang bisa digunakan.
+2. Membuat blog, Membuat web page, Membuat grup, Upload file ataupun foto dalam satu platform.
+3. Mudah digunakan dan dipahami.
+4. Instalasi mudah dan cepat.
+5. Membantu membuat jaringan sosial dalam satu tempat.
+6. Free to use.
 
 # Kekurangan
-1. Perlu hosting untuk bisa diakses banyak orang
-2. Tampilan kurang menarik dan bervariasi
-3. Fitur-fitur kurang banyak
+1. Perlu hosting untuk bisa diakses banyak orang.
+2. Tampilan kurang menarik dan bervariasi.
+3. Fitur-fitur kurang banyak.
+
+# ELGG VS. WORDPRESS
+- Wordpress lebih populer
+- Elgg tertinggal diberbagai segmen dibanding wordpress
+- Wordpress memiliki jangkauan penggunaan lebih banyak kategori situs web
+- Tampilan Wordpress lebih menarik
 
 # Referensi
 1. https://gegeriyadi.com/sistem-manajemen-konten/
