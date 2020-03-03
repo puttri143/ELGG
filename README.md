@@ -212,7 +212,7 @@ Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk s
 2. Tampilan kurang menarik dan bervariasi.
 3. Fitur-fitur kurang banyak.
 
-# ELGG VS. WORDPRESS
+# ELGG vs WORDPRESS
 - Wordpress lebih populer
 - Elgg tertinggal diberbagai segmen dibanding wordpress
 - Wordpress memiliki jangkauan penggunaan lebih banyak kategori situs web
