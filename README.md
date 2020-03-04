@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/39585097/75446959-ffd1da00-599a-11ea-9c7b-0781d7dcdd9c.png)
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan)
+| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Kelebihan](#kelebihan) | [Kekurangan](#kekurangan) | [Referensi](#referensi) |
 
 # Sekilas Tentang
 
@@ -77,6 +77,7 @@ Kemudian ketikkan content di bawah dalam file tersebut kemudian simpan.<br>
 > `<?php phpinfo( ); ?>`
 
 lalu telusuri di hostname server /**phpinfo.php**<br>
+
 **localhost:8000/phpinfo.php**<br>
 
 ![image](https://user-images.githubusercontent.com/47512858/75656199-0495d700-5c96-11ea-9345-36cb5dd1cdcf.png)
@@ -217,7 +218,7 @@ Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk s
 # ELGG vs WORDPRESS
 - Wordpress lebih populer
 - Elgg tertinggal diberbagai segmen dibanding wordpress
-- Wordpress memiliki jangkauan penggunaan lebih banyak kategori situs web
+- Wordpress memiliki jangkauan penggunaan lebih banyak dalam kategori situs web
 - Tampilan Wordpress lebih menarik
 
 # Referensi
