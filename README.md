@@ -4,7 +4,7 @@
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 
 # Sekilas Tentang
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 CMS adalah singkatan dari Content Management System atau dalam Bahasa Indonesianya Sistem Manajemen Konten merupakan perangkat lunak yang memungkinkan seseorang untuk menambahkan dan/atau memanipulasi (mengubah) isi dari suatu situs web. Salah satu contoh CMS adalah ELGG.
 
@@ -13,7 +13,7 @@ Elgg adalah software jejaring sosial open source yang menyediakan komponen yang 
 Elgg gratis di download dan digunakan. Elgg bisa digunakan pada platform LAMP (Linux, Apache, MySQL, dan PHP). 
 
 # Instalasi
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 ### Instalasi LAMP
 ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/master/p01.md
@@ -28,7 +28,7 @@ ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/m
 `deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse` <br>
 `!`
 
-##### Instal apache, mysql, php
+##### Instal apache2, mysql, php
 > `sudo apt update` <br>
 `sudo apt install apache2 php mysql-server` <br>
 `sudo apt install php-mysql php-gd php-mbstring php-xml php-curl` <br>
@@ -86,7 +86,7 @@ lalu telusuri di hostname server /**phpinfo.php**<br>
 
 ![image](https://user-images.githubusercontent.com/47512858/75656199-0495d700-5c96-11ea-9345-36cb5dd1cdcf.png)
 
-### Create Magento Database
+### Create Database
 Untuk login ke database server mysql jalankan command dibawah ini.<br>
 > `sudo mysql -u root -p`
 
@@ -170,7 +170,7 @@ Setelah semua step selesai, buat admin account maka proses pembuatan akun pada e
 
 
 # Konfigurasi
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian. <br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75656637-f300ff00-5c96-11ea-8cab-098ec3558c65.png)
@@ -192,12 +192,12 @@ Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian
 
 
 # Maintenance
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 ![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)<br><br>
 
 # Cara Pemakaian
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657330-8be44a00-5c98-11ea-9c93-ad003ea0bce4.png)
@@ -210,12 +210,12 @@ Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657570-13ca5400-5c99-11ea-8ac7-0041a9c17711.png)
 
 # Pembahasan
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk situs jejaring sosial yang menawarkan blogging, jaringan, komunitas, mengumpulkan berita. Elgg digunakan didalam jaringan internal/local dengan bantuan web server tentunya bisa berbasis linux maupun windows. Tanpa harus bisa memahami bahasa pemrograman apapun, elgg dapat membantu kita dalam membuat sebuah jejaring sosial dengan mudah. Elgg ini tergolong freeware dan untuk lisensinya sendiri termasuk open source dan kita bebas untuk mengembangkannya dan juga bisa digunakan di shared hosting maupun vps. 
 
 # Kelebihan 
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 1. Terdapat fitur-fitur gratis yang bisa digunakan.
 2. Membuat blog, Membuat web page, Membuat grup, Upload file ataupun foto dalam satu platform.
@@ -225,14 +225,14 @@ Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk s
 6. Free to use.
 
 # Kekurangan
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 1. Perlu hosting untuk bisa diakses banyak orang.
 2. Tampilan kurang menarik dan bervariasi.
 3. Fitur-fitur kurang banyak.
 
 # ELGG vs WORDPRESS
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 - Wordpress lebih populer
 - Elgg tertinggal diberbagai segmen dibanding wordpress
@@ -240,7 +240,7 @@ Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk s
 - Tampilan Wordpress lebih menarik
 
 # Referensi
-[Back To Top](#sekilas-tentang)
+`[Back To Top](#sekilas-tentang)
 
 1. https://gegeriyadi.com/sistem-manajemen-konten/
 2. https://en.wikipedia.org/wiki/Elgg_(software)
