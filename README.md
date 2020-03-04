@@ -1,5 +1,6 @@
 ![image](https://user-images.githubusercontent.com/39585097/75446959-ffd1da00-599a-11ea-9c7b-0781d7dcdd9c.png)
 
+[#Sekilas Tentang | #Instalasi]
 # Sekilas Tentang
 
 CMS adalah singkatan dari Content Management System atau dalam Bahasa Indonesianya Sistem Manajemen Konten merupakan perangkat lunak yang memungkinkan seseorang untuk menambahkan dan/atau memanipulasi (mengubah) isi dari suatu situs web. Salah satu contoh CMS adalah ELGG.
