@@ -81,7 +81,6 @@ Kemudian ketikkan content di bawah dalam file tersebut kemudian simpan.<br>
 > `<?php phpinfo( ); ?>`
 
 lalu telusuri di hostname server /**phpinfo.php**<br>
-
 **localhost:8000/phpinfo.php**<br>
 
 ![image](https://user-images.githubusercontent.com/47512858/75656199-0495d700-5c96-11ea-9345-36cb5dd1cdcf.png)
