@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/39585097/75446959-ffd1da00-599a-11ea-9c7b-0781d7dcdd9c.png)
 
-[Sekilas Tentang](# Sekilas Tentang)
+[Sekilas Tentang](#Sekilas Tentang)
 
 # Sekilas Tentang
 
