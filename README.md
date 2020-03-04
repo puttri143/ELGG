@@ -14,6 +14,7 @@ Elgg gratis di download dan digunakan. Elgg bisa digunakan pada platform LAMP (L
 
 # Instalasi
 [Back To Top](#sekilas-tentang)
+
 ### Instalasi LAMP
 ikuti tahap yang dideskripsikan pada https://github.com/auriza/komdat-lab/blob/master/p01.md
 
@@ -170,6 +171,7 @@ Setelah semua step selesai, buat admin account maka proses pembuatan akun pada e
 
 # Konfigurasi
 [Back To Top](#sekilas-tentang)
+
 Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian. <br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75656637-f300ff00-5c96-11ea-8cab-098ec3558c65.png)
 ![image](https://user-images.githubusercontent.com/47512858/75656669-03b17500-5c97-11ea-898c-b0be10dafae5.png)
@@ -191,10 +193,12 @@ Kemudian masuk ke laman setting dashboard, isi sesuaikan dengan keperluan kalian
 
 # Maintenance
 [Back To Top](#sekilas-tentang)
+
 ![image](https://user-images.githubusercontent.com/47512858/75657275-65beaa00-5c98-11ea-9b38-f96eee7b4697.png)<br><br>
 
 # Cara Pemakaian
 [Back To Top](#sekilas-tentang)
+
 Berikut tampilan front page laman yang telah dibuat :<br><br>
 ![image](https://user-images.githubusercontent.com/47512858/75657330-8be44a00-5c98-11ea-9c93-ad003ea0bce4.png)
 ![image](https://user-images.githubusercontent.com/47512858/75657366-9d2d5680-5c98-11ea-9a23-6e67f9218c98.png)
@@ -207,10 +211,12 @@ Berikut tampilan front page laman yang telah dibuat :<br><br>
 
 # Pembahasan
 [Back To Top](#sekilas-tentang)
+
 Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk situs jejaring sosial yang menawarkan blogging, jaringan, komunitas, mengumpulkan berita. Elgg digunakan didalam jaringan internal/local dengan bantuan web server tentunya bisa berbasis linux maupun windows. Tanpa harus bisa memahami bahasa pemrograman apapun, elgg dapat membantu kita dalam membuat sebuah jejaring sosial dengan mudah. Elgg ini tergolong freeware dan untuk lisensinya sendiri termasuk open source dan kita bebas untuk mengembangkannya dan juga bisa digunakan di shared hosting maupun vps. 
 
 # Kelebihan 
 [Back To Top](#sekilas-tentang)
+
 1. Terdapat fitur-fitur gratis yang bisa digunakan.
 2. Membuat blog, Membuat web page, Membuat grup, Upload file ataupun foto dalam satu platform.
 3. Mudah digunakan dan dipahami.
@@ -220,12 +226,14 @@ Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk s
 
 # Kekurangan
 [Back To Top](#sekilas-tentang)
+
 1. Perlu hosting untuk bisa diakses banyak orang.
 2. Tampilan kurang menarik dan bervariasi.
 3. Fitur-fitur kurang banyak.
 
 # ELGG vs WORDPRESS
 [Back To Top](#sekilas-tentang)
+
 - Wordpress lebih populer
 - Elgg tertinggal diberbagai segmen dibanding wordpress
 - Wordpress memiliki jangkauan penggunaan lebih banyak dalam kategori situs web
@@ -233,6 +241,7 @@ Elgg merupakan salah satu varian jenis CMS yang content nya di khususkan untuk s
 
 # Referensi
 [Back To Top](#sekilas-tentang)
+
 1. https://gegeriyadi.com/sistem-manajemen-konten/
 2. https://en.wikipedia.org/wiki/Elgg_(software)
 3. https://websiteforstudents.com/install-elgg-social-networking-engine-on-ubuntu-16-04-17-10-18-04-with-apache2-mariadb-and-php-7-2-support/
